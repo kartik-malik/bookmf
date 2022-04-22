@@ -1,0 +1,36 @@
+.PokeSearch__form {
+  flex: 0 0 40%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.PokeSearch__input {
+  font-family: inherit;
+  font-size: inherit;
+  color: inherit;
+  background-color: #f4f2f2;
+  border: none;
+  padding: 0.7rem 2rem;
+  border-radius: 100px;
+  width: 90%;
+  transition: all 0.2s;
+  /* margin-right: -3.5rem; */
+}
+.PokeSearch__input:focus {
+  outline: none;
+  width: 100%;
+}
+.PokeSearch__button {
+  border: none;
+  background: white !important;
+  position: relative;
+  /* left: -2rem; */
+}
+@media screen and (max-width: 630px) {
+  .PokeSearch__input {
+    margin-right: 0px;
+  }
+  .PokeSearch__form {
+    flex: 1;
+  }
+}
